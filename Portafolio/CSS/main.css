@@ -5,14 +5,35 @@ body{font-family: 'Montserrat', sans-serif;}
 .title{
     font-size: xx-large;
     color: whitesmoke;
+    padding: 10px;
+    border-width: 0px;
 }
 
 .title--background_blue{
-    background-color:rgb(38, 90, 187); ;
+    background-color:rgb(38, 90, 187);
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.total_width{
+    width: 30%;
 }
 
 .section_title{
     color: rgb(38, 90, 187);
+}
+
+.container{
+    display: flex;
+}
+.container img{
+    width: auto;
+    height: 100vh;
+}
+.section_content{
+    display: block;
+    width: 100%;
 }
 
 .separator{
@@ -36,6 +57,18 @@ body{font-family: 'Montserrat', sans-serif;}
     background-color:whitesmoke; 
     border-left: 3px solid rgb(90, 138, 228);
     
+}
+
+.margin_0{
+    margin: 0;
+}
+
+.overflow_y{
+    overflow-y: scroll;
+}
+.leftRigth_orientation{
+    display: flex;
+    height: 100vh;
 }
 
 .button{
