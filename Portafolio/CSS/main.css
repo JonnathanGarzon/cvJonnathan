@@ -99,30 +99,37 @@ body{font-family: 'Montserrat', sans-serif;}
 }
 
 .contact_section{
+    text-align: center;
     display: flex;
     justify-content: space-around;
 }
 
 .contact_form{
+    justify-content: center;
+    width: 50%;
     height: 100vh;
     padding: 2%;
     margin: 2%;
 }
 
 .field_input{
-    padding: 5px;
+    padding: 15px;
     margin: 5px;
-    width: 100%;
+    width: 300px;
 }
 
 input{
+    padding: 15px;
+    width: 100%;
     border-radius: 1px;
     border: solid lightgrey;
     outline-color: rgb(90, 138, 228) ;
 }
 
 .button{
-    width: 100%;
+    font-size: medium;
+    padding: 15px;
+    width: 300px;
     border-color: transparent;
     color: whitesmoke;
     background-color: rgb(38, 90, 187);
